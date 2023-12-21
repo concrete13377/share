@@ -7,7 +7,7 @@
 # Description     : 
 import ConfigParser, os
 
-cfg_file = ['share.cfg', '/etc/share.cfg']
+cfg_file = ['share.cfg', '~/etc/share.cfg']
 
 def config():
     cfg = ConfigParser.ConfigParser()
